@@ -1,0 +1,11 @@
+{
+  "hover": true,
+  "pressed": true,
+  "editorNative": true,
+  "resume": true,
+  "dialogNative": true,
+  "dialogResume": true,
+  "blurHandler": true,
+  "blurResume": true,
+  "glFailureRing": true
+}

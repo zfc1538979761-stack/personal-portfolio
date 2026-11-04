@@ -1,0 +1,46 @@
+[
+  {
+    "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_10_31_11_36_06_IMG_2569.MOV",
+    "sha256": "397024a58dca5634f9ec7dc4a173776974c7e713ccf414a99323573e2e35afd2",
+    "output": "outdoor-2569.mp4",
+    "poster": "outdoor-2569.jpg",
+    "durationSeconds": 5.02,
+    "conversion": "SDR BT.709",
+    "outputBytes": 2985044,
+    "beforeOptimizationBytes": 5745507,
+    "webOptimization": "2026-11-03: H.264 CRF25, maxrate4M, faststart, AAC128k; SDR BT.709; original source unchanged"
+  },
+  {
+    "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_10_06_11_30_17_IMG_1406.MOV",
+    "sha256": "4b061b97b3a700dfa919babc454d5b53cc272a0e00208069399c52aa0c8313e9",
+    "output": "outdoor-1406.mp4",
+    "poster": "outdoor-1406.jpg",
+    "durationSeconds": 5.82,
+    "conversion": "SDR BT.709",
+    "outputBytes": 3403720,
+    "beforeOptimizationBytes": 6725665,
+    "webOptimization": "2026-11-03: H.264 CRF25, maxrate4M, faststart, AAC128k; SDR BT.709; original source unchanged"
+  },
+  {
+    "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_10_02_17_49_22_IMG_1194.MP4",
+    "sha256": "e8111080c16da455307f7426f2afd359ec4234513788e8d265b2c71e4c8ab436",
+    "output": "outdoor-1194.mp4",
+    "poster": "outdoor-1194.jpg",
+    "durationSeconds": 14.38,
+    "conversion": "SDR BT.709",
+    "outputBytes": 7805137,
+    "beforeOptimizationBytes": 15426410,
+    "webOptimization": "2026-11-03: H.264 CRF25, maxrate4M, faststart, AAC128k; SDR BT.709; original source unchanged"
+  },
+  {
+    "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_07_09_13_04_17_IMG_7172.MOV",
+    "sha256": "1fa7be756e356934c07d2c2863a903aff47a7679f28fcae82d5e031b896e2096",
+    "output": "outdoor-7172.mp4",
+    "poster": "outdoor-7172.jpg",
+    "durationSeconds": 5.18,
+    "conversion": "HLG BT.2020 to SDR BT.709 (linear light, Hable tone mapping)",
+    "outputBytes": 3053787,
+    "beforeOptimizationBytes": 6028153,
+    "webOptimization": "2026-11-03: H.264 CRF25, maxrate4M, faststart, AAC128k; SDR BT.709; original source unchanged"
+  }
+]

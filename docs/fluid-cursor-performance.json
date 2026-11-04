@@ -1,0 +1,108 @@
+{
+  "viewport": [
+    1920,
+    1080
+  ],
+  "quality": "low",
+  "passed": false,
+  "baseline": {
+    "p95": 12.20000000006985,
+    "slow": 0.07538635506973237
+  },
+  "active": {
+    "p95": 18.199999999953434,
+    "slow": 0.4558404558404558
+  },
+  "results": [
+    {
+      "mode": "off-medium",
+      "p95": 12.20000000006985,
+      "slow": 0.07601672367920942,
+      "count": 2631,
+      "focused": true
+    },
+    {
+      "mode": "medium",
+      "p95": 18.20000000006985,
+      "slow": 0.5003126954346466,
+      "count": 1599,
+      "focused": true,
+      "engine": "fluid"
+    },
+    {
+      "mode": "off-medium",
+      "p95": 12.199999999953434,
+      "slow": 0.07446016381236038,
+      "count": 2686,
+      "focused": true
+    },
+    {
+      "mode": "medium",
+      "p95": 18.20000000006985,
+      "slow": 0.5079365079365079,
+      "count": 1575,
+      "focused": true,
+      "engine": "fluid"
+    },
+    {
+      "mode": "off-medium",
+      "p95": 12.20000000006985,
+      "slow": 0.03746721618583739,
+      "count": 2669,
+      "focused": true
+    },
+    {
+      "mode": "medium",
+      "p95": 18.20000000006985,
+      "slow": 0.6325110689437065,
+      "count": 1581,
+      "focused": true,
+      "engine": "fluid"
+    },
+    {
+      "mode": "off-low",
+      "p95": 12.20000000006985,
+      "slow": 0.11299435028248588,
+      "count": 2655,
+      "focused": true
+    },
+    {
+      "mode": "low",
+      "p95": 18.199999999953434,
+      "slow": 0.34285714285714286,
+      "count": 1750,
+      "focused": true,
+      "engine": "fluid"
+    },
+    {
+      "mode": "off-low",
+      "p95": 12.20000000006985,
+      "slow": 0.07538635506973237,
+      "count": 2653,
+      "focused": true
+    },
+    {
+      "mode": "low",
+      "p95": 18.199999999953434,
+      "slow": 0.45662100456621,
+      "count": 1752,
+      "focused": true,
+      "engine": "fluid"
+    },
+    {
+      "mode": "off-low",
+      "p95": 12.20000000006985,
+      "slow": 0.03700962250185048,
+      "count": 2702,
+      "focused": true
+    },
+    {
+      "mode": "low",
+      "p95": 18.199999999953434,
+      "slow": 0.4558404558404558,
+      "count": 1755,
+      "focused": true,
+      "engine": "fluid"
+    }
+  ]
+}

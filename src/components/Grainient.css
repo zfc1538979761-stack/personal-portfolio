@@ -1,0 +1,26 @@
+.grainient-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grainient-canvas {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.grainient-container {
+  background: radial-gradient(
+    ellipse at 75% 35%,
+    #244257 0%,
+    #14212d 40%,
+    #101213 85%
+  );
+}
+.grainient-canvas[hidden] {
+  display: none;
+}

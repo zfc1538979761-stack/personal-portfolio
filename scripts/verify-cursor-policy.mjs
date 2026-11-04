@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import { cursorEligible, cursorStrength, cursorWithinBudget, pointerScale } from '../src/components/cursorPolicy.ts';
+assert.equal(cursorEligible(1920, true, true, false), true);
+for (const args of [[390,true,true,false],[1920,false,true,false],[1920,true,false,false],[1920,true,true,true]]) assert.equal(cursorEligible(...args), false);
+assert.ok(cursorStrength('background') > cursorStrength('text'));
+assert.ok(cursorStrength('text') > cursorStrength('media'));
+assert.equal(cursorStrength('suspended'), 0);
+assert.equal(cursorStrength('background'), 1);
+assert.equal(cursorStrength('text'), .85);
+assert.equal(cursorStrength('media'), .7);
+assert.equal(pointerScale(false, false), 1);
+assert.equal(pointerScale(true, false), 1.12);
+assert.equal(pointerScale(true, true), .92);
+assert.equal(cursorWithinBudget({p95:20,slow:10},{p95:24,slow:15}), true);
+assert.equal(cursorWithinBudget({p95:20,slow:10},{p95:24.01,slow:10}), false);
+assert.equal(cursorWithinBudget({p95:20,slow:10},{p95:20,slow:15.01}), false);
+console.log('PASS: fine-pointer eligibility, content strength and exact performance budget.');

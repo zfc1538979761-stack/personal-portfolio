@@ -1,0 +1,11 @@
+.glow-cursor-overlay { position: fixed; inset: 0; z-index: 60; pointer-events: none; user-select: none; --pointer-scale: 1; }
+.glow-cursor-overlay * { pointer-events: none; }
+.cursor-fluid { position: absolute; inset: 0; opacity: 0; transition: opacity 180ms ease; mix-blend-mode: screen; }
+.cursor-fluid canvas { display: block; width: 100%; height: 100%; }
+.cursor-fluid[data-paused="true"], .glow-cursor-overlay[data-engine="ring-only"] .cursor-fluid { opacity: 0 !important; }
+.cursor-pointer { position: absolute; top: 0; left: 0; z-index: 1; width: 14px; height: 19px; opacity: 0; }
+.cursor-arrow { display: block; overflow: visible; fill: rgb(180 219 231 / 28%); stroke: rgb(226 245 252 / 82%); stroke-width: 1; stroke-linejoin: round; filter: drop-shadow(0 1px 1px #152f48bb); transform: translate(-.75px,-.75px) scale(var(--pointer-scale)); transform-origin: .75px .75px; transition: transform 120ms ease-out; }
+.glow-cursor-overlay[data-active="true"] .cursor-pointer { opacity: 1; }
+html.has-custom-cursor,html.has-custom-cursor * { cursor: none !important; }
+html.has-custom-cursor input,html.has-custom-cursor textarea,html.has-custom-cursor select,html.has-custom-cursor [contenteditable],html.has-custom-cursor video { cursor: auto !important; }
+@media (max-width: 760px), (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) { .glow-cursor-overlay { display: none; } html.has-custom-cursor,html.has-custom-cursor * { cursor: revert !important; } }

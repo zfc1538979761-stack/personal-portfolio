@@ -1,0 +1,42 @@
+.chapter-photo-window {
+  perspective: 1700px;
+  overflow: clip;
+  overflow-anchor: none;
+}
+.chapter-photo-motion {
+  transform-origin: 50% 50%;
+  transform-style: preserve-3d;
+}
+.journal-viewer[data-chapter-phase="exiting"] .chapter-photo-motion,
+.journal-viewer[data-chapter-phase="entering"] .chapter-photo-motion {
+  will-change: transform, opacity;
+}
+.chapter-status {
+  position: absolute;
+  z-index: 25;
+  top: 78px;
+  left: 30px;
+  max-width: calc(100% - 60px);
+  margin: 0;
+  padding: 0;
+  color: #b8c8d3;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.journal-viewer { position: relative; }
+.chapter-status:not(:empty) {
+  padding: 8px 12px;
+  background: #14212df5;
+  border: 1px solid #b4dbe735;
+}
+.chapter-status button {
+  margin-left: 12px;
+  padding: 6px 14px;
+  border: 1px solid #b4dbe760;
+  border-radius: 4px;
+  color: var(--accent);
+}
+.chapter-status button:is(:hover, :focus-visible) {
+  color: #14202b;
+  background: var(--accent);
+}

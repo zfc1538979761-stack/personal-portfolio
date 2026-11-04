@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import { motionPolicy } from '../src/components/motionPolicy.ts';
+assert.equal(motionPolicy(1920, false, '', 0).opening, true);
+assert.equal(motionPolicy(1440, false, '#home', 0).opening, true);
+for (const hash of ['#work', '#journal', '#contact']) assert.equal(motionPolicy(1440, false, hash, 0).opening, false);
+assert.equal(motionPolicy(1440, false, '', 400).opening, false);
+assert.equal(motionPolicy(1920, true, '', 0).opening, false);
+assert.equal(motionPolicy(1920, true, '', 0).parallax, false);
+assert.equal(motionPolicy(390, false, '', 0).parallax, false);
+assert.equal(motionPolicy(390, false, '', 0).rotation, 0);
+assert.ok(motionPolicy(390, false, '', 0).timeScale < motionPolicy(1920, false, '', 0).timeScale);
+console.log('PASS: opening, deep links, restored scroll, reduced motion and compact policy.');

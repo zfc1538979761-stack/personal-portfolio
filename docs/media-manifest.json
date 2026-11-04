@@ -1,0 +1,1073 @@
+{
+  "excludedPhotoIndices": [
+    7,
+    10
+  ],
+  "destinations": [
+    {
+      "id": "wugong",
+      "name": "武功山",
+      "indices": [
+        3,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "tengger",
+      "name": "腾格里沙漠",
+      "indices": [
+        5,
+        6,
+        8,
+        9,
+        11,
+        33
+      ]
+    },
+    {
+      "id": "nantaihang",
+      "name": "南太行",
+      "indices": [
+        15,
+        16,
+        13,
+        14,
+        12
+      ]
+    },
+    {
+      "id": "hutiao",
+      "name": "虎跳峡",
+      "indices": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "haba",
+      "name": "哈巴黑海",
+      "indices": [
+        18,
+        36,
+        22,
+        17
+      ]
+    },
+    {
+      "id": "jiesi",
+      "name": "结斯沟",
+      "indices": [
+        24,
+        25,
+        23
+      ]
+    },
+    {
+      "id": "yema",
+      "name": "野马海子",
+      "indices": [
+        41,
+        26,
+        28,
+        27
+      ]
+    },
+    {
+      "id": "tiejiang",
+      "name": "铁匠山",
+      "indices": [
+        32,
+        31,
+        30,
+        29
+      ]
+    },
+    {
+      "id": "shizikou",
+      "name": "狮子口",
+      "indices": [
+        34,
+        35
+      ]
+    },
+    {
+      "id": "wutai",
+      "name": "五台山",
+      "indices": [
+        40,
+        39,
+        37,
+        38,
+        47
+      ]
+    },
+    {
+      "id": "hongxing",
+      "name": "红星岩海子",
+      "indices": [
+        45,
+        42,
+        46,
+        43,
+        44
+      ]
+    }
+  ],
+  "files": [
+    {
+      "output": "outdoor-03.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_08_11_06_37_48_IMG_9398.JPG",
+      "originalSize": [
+        4284,
+        5712
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "b23089bc2f21a9412f90181836ef3ba8e0ca70c406920c68d2e5776e4bf663db"
+    },
+    {
+      "output": "outdoor-01.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_08_10_22_56_25_IMG_9266.DNG",
+      "originalSize": [
+        4032,
+        3024
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": false,
+      "sha256": "9d3ffa49886999a13faa97bcc17524cb4b7f9f114cdbdf3c0a2b33cc597c15ff"
+    },
+    {
+      "output": "outdoor-02.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_08_11_05_36_08_IMG_9335.DNG",
+      "originalSize": [
+        5628,
+        4220
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": false,
+      "sha256": "6c7697eb89652de28426b80f1a501db21c056c64ed6c673f379b219dd8c1f368"
+    },
+    {
+      "output": "outdoor-04.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_08_11_06_52_25_IMG_9411.JPG",
+      "originalSize": [
+        4284,
+        5712
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "574ecb453f2ed475559dd9ef1f7db8aac89f9c4d6beaada9c239d949b7b64e7f"
+    },
+    {
+      "output": "outdoor-05.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_09_20_15_12_10_IMG_0971.JPG",
+      "originalSize": [
+        4284,
+        5712
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "a1bc6c6bdf6cfda16edb41b4f40a61fee125b4177cdafcee1ecfef0a8d4b9fc3"
+    },
+    {
+      "output": "outdoor-06.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_09_21_14_22_17_IMG_1125.JPG",
+      "originalSize": [
+        4032,
+        2268
+      ],
+      "outputSize": [
+        2200,
+        1238
+      ],
+      "colorManaged": false,
+      "sha256": "0320525ec63f8a69d0b50945e9ef5b84e67757d41b3ebc159471f6ff35aee162"
+    },
+    {
+      "output": "outdoor-08.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_09_21_18_32_06_IMG_1193.JPG",
+      "originalSize": [
+        4032,
+        3024
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": true,
+      "sha256": "a772ded453b7d15e879f4e04ca4efb5d2e4d6c97b9f836aa085330c4ac76c7ce"
+    },
+    {
+      "output": "outdoor-09.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_09_21_19_24_56_IMG_1216.DNG",
+      "originalSize": [
+        4032,
+        3024
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": false,
+      "sha256": "4fb82160640614771ceef16d54e3836db6d9de01682d1f3c94f5c6910e95b3bb"
+    },
+    {
+      "output": "outdoor-11.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_09_21_20_03_50_IMG_1230.JPG",
+      "originalSize": [
+        4032,
+        3024
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": true,
+      "sha256": "55d9f7fde268347b3ac59b0edd307f4d4b2d61263b5a4953c68e160ddb75bc41"
+    },
+    {
+      "output": "outdoor-33.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_04_27_22_05_04_IMG_3868.JPEG",
+      "originalSize": [
+        3072,
+        4096
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": false,
+      "sha256": "40b22f2af39f7636bf56ecb32a4b121cee398eacb93a6fe49e1c39c0a5c1c62d"
+    },
+    {
+      "output": "outdoor-15.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_10_04_11_28_22_IMG_2116.JPG",
+      "originalSize": [
+        2735,
+        3647
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "e62be61735a7613f16cbbc43f219ff0ebcf57cf3e06357fa0a7213b43cadf9e4"
+    },
+    {
+      "output": "outdoor-16.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_10_04_13_24_30_IMG_2183.JPG",
+      "originalSize": [
+        4032,
+        3024
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": true,
+      "sha256": "ad6405a3785e7a3a2760e6cae7062029bb0c0f473e412f14e5847f008e3dc426"
+    },
+    {
+      "output": "outdoor-13.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_10_03_11_59_04_IMG_1911.JPG",
+      "originalSize": [
+        5712,
+        4284
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": true,
+      "sha256": "1aa29178995510609e7262a1aa6fabc96b9ee3daa298206c0a425261c8ad9461"
+    },
+    {
+      "output": "outdoor-14.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_10_04_07_10_21_IMG_2036.JPG",
+      "originalSize": [
+        4284,
+        5712
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "b18eb066d01b87a728e5c796b2f1fe74498f3920cce8caaf1be3b5622a296d73"
+    },
+    {
+      "output": "outdoor-12.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_10_03_09_51_41_IMG_1881.JPG",
+      "originalSize": [
+        4284,
+        5712
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "84fb6312ecece382a2eff27f0aeb89119c3a8208f4f2a41dc24b581a4e12e627"
+    },
+    {
+      "output": "outdoor-19.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_10_18_14_41_14_IMG_3108.JPG",
+      "originalSize": [
+        4032,
+        3024
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": true,
+      "sha256": "9b5273dbd58b64500901ef9c97e6544a6b525a143bd3d9f4a64bada01eba537f"
+    },
+    {
+      "output": "outdoor-20.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_10_18_15_42_56_IMG_3116.JPG",
+      "originalSize": [
+        4032,
+        3024
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": true,
+      "sha256": "7cc43c4e80bc031e61ba81bb6b3886949356a01d0122aebb6de21dd3b35d2730"
+    },
+    {
+      "output": "outdoor-21.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_10_18_16_05_12_IMG_3175.JPG",
+      "originalSize": [
+        4032,
+        3024
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": true,
+      "sha256": "ee775cf0d31ca57c16b129ee9f2289703cd8448713393b8bb432aa0e49d59c13"
+    },
+    {
+      "output": "outdoor-18.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_10_17_11_00_22_IMG_2833.JPG",
+      "originalSize": [
+        7304,
+        5478
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": true,
+      "sha256": "b9b119cff1c1dfe19a0fd9a8a357d4d56db9843333a134a94f5c68ec2097726d"
+    },
+    {
+      "output": "outdoor-36.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_06_02_10_03_06_IMG_5478.JPEG",
+      "originalSize": [
+        3840,
+        5120
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": false,
+      "sha256": "dbb000bf6322b8be0348c5bcf2cb6a11d6cddbfb9f06db110b8c592576319bc0"
+    },
+    {
+      "output": "outdoor-22.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_11_04_21_56_28_IMG_4066.JPG",
+      "originalSize": [
+        4284,
+        5712
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": false,
+      "sha256": "6e058d320614e2084865709fca70415ce5dc97169d08db2de135a325944792ff"
+    },
+    {
+      "output": "outdoor-17.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2025_10_17_08_41_36_IMG_2821.JPG",
+      "originalSize": [
+        4032,
+        3024
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": true,
+      "sha256": "43b35b0860b06c9bf6ebe0a6bfc25b4be4731595552ab983a2a29d5a77d5bbf7"
+    },
+    {
+      "output": "outdoor-24.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_01_17_21_02_45_IMG_8571.JPG",
+      "originalSize": [
+        2268,
+        4032
+      ],
+      "outputSize": [
+        1462,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "42c88ad1d2f8b99643292d333177bdcccd399e354220723412b430d0363b5dda"
+    },
+    {
+      "output": "outdoor-25.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_01_17_21_25_10_IMG_8575.JPEG",
+      "originalSize": [
+        3840,
+        5120
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": false,
+      "sha256": "3f1a3cebdead44c45f0309191db299e5728fe4f521c9d7c5092fd519cd3d567d"
+    },
+    {
+      "output": "outdoor-23.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_01_17_20_52_44_IMG_8570.JPG",
+      "originalSize": [
+        5712,
+        3032
+      ],
+      "outputSize": [
+        2200,
+        1168
+      ],
+      "colorManaged": false,
+      "sha256": "88c168732bdc7a63b4abf19195da868ff57fa4f51e84ca5df5f8f9cf92c666b4"
+    },
+    {
+      "output": "outdoor-41.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_07_18_12_31_11_IMG_7371.JPEG",
+      "originalSize": [
+        2784,
+        5120
+      ],
+      "outputSize": [
+        1414,
+        2600
+      ],
+      "colorManaged": false,
+      "sha256": "31140a804037e3efe0c26983d54248e1dfedc6e3d7e61f5564bc6e836e140265"
+    },
+    {
+      "output": "outdoor-26.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_01_21_08_18_56_IMG_8731.JPG",
+      "originalSize": [
+        5590,
+        4192
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": true,
+      "sha256": "96674e070b180b9f12122f909b760fe4b6f3fdf30c0788adb3a51ad5221f2309"
+    },
+    {
+      "output": "outdoor-27.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_01_21_19_41_55_IMG_9440.JPG",
+      "originalSize": [
+        2269,
+        4094
+      ],
+      "outputSize": [
+        1441,
+        2600
+      ],
+      "colorManaged": false,
+      "sha256": "7e1908ef9b03aa7770fc7206f1caa8dcf8eabee6d44847296f6247fc6e4e5d43"
+    },
+    {
+      "output": "outdoor-28.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_01_21_19_53_37_IMG_9443.HEIC",
+      "originalSize": [
+        3840,
+        2160
+      ],
+      "outputSize": [
+        2200,
+        1238
+      ],
+      "colorManaged": false,
+      "sha256": "f55bcef7031c11b5b7a00a6145dcaaf324f7d94cfe97b3212a76461e9135b850"
+    },
+    {
+      "output": "outdoor-32.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_04_03_19_53_15_IMG_2893.JPEG",
+      "originalSize": [
+        2304,
+        4096
+      ],
+      "outputSize": [
+        1462,
+        2600
+      ],
+      "colorManaged": false,
+      "sha256": "110b58483b1c42dc0065865a1c24e5dae780d9998d1f5b2fd10cf0b8409c98bb"
+    },
+    {
+      "output": "outdoor-31.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_04_03_19_09_57_IMG_2882.JPG",
+      "originalSize": [
+        4032,
+        3024
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": false,
+      "sha256": "763e85bfd81d40a88169c2d726b541d077b175f602a3dc19a9693174025d487f"
+    },
+    {
+      "output": "outdoor-30.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_04_03_19_09_22_IMG_2881.JPG",
+      "originalSize": [
+        4032,
+        2268
+      ],
+      "outputSize": [
+        2200,
+        1238
+      ],
+      "colorManaged": false,
+      "sha256": "cdd96cef89af484896e28c191eda54b89a0a8aa92e070d092e843a5339550c26"
+    },
+    {
+      "output": "outdoor-29.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_04_03_19_08_20_IMG_2880.JPG",
+      "originalSize": [
+        4035,
+        2269
+      ],
+      "outputSize": [
+        2200,
+        1237
+      ],
+      "colorManaged": false,
+      "sha256": "ec14d1fc4b0790efd6b8019a83de9dbc54f31b2ac4c6b057701e55f8639e6dfc"
+    },
+    {
+      "output": "outdoor-34.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_05_02_23_45_51_IMG_4386.PNG",
+      "originalSize": [
+        2304,
+        4096
+      ],
+      "outputSize": [
+        1462,
+        2600
+      ],
+      "colorManaged": false,
+      "sha256": "2253314aa6f5049b66ab5e717b57e65c7282fecf6ca7f0a464e32909d32f178f"
+    },
+    {
+      "output": "outdoor-35.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_05_03_12_13_02_IMG_4393.JPEG",
+      "originalSize": [
+        3840,
+        5120
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": false,
+      "sha256": "2c8e27655a2a3609baee9d66ffa159b010843ae1999e96490a743a593c9a0891"
+    },
+    {
+      "output": "outdoor-40.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_07_07_22_05_47_IMG_7136.JPEG",
+      "originalSize": [
+        3072,
+        4096
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": false,
+      "sha256": "f0855316cd57f0c450adb49a2dcf8864cc8d1b0ce0bf401abb68e505c5b7f068"
+    },
+    {
+      "output": "outdoor-39.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_07_07_22_04_33_IMG_7134.JPEG",
+      "originalSize": [
+        5120,
+        3840
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": false,
+      "sha256": "a22d64f89d7d78aff8c1b86aae4355903f23d327f45661d59976d11523c7f39a"
+    },
+    {
+      "output": "outdoor-37.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_07_07_21_52_36_IMG_7126.JPG",
+      "originalSize": [
+        4032,
+        2268
+      ],
+      "outputSize": [
+        2200,
+        1238
+      ],
+      "colorManaged": false,
+      "sha256": "42a809e926cdfd0ae05719d9e55ec003c2b086eba83099e085adb7576dc9c26e"
+    },
+    {
+      "output": "outdoor-47.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_10_26_12_32_47_IMG_2258.JPG",
+      "originalSize": [
+        3608,
+        4907
+      ],
+      "outputSize": [
+        1912,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "b10c928c9ee6dcef44aa4e6f563c8e352a4948a92bf07f094b99a33d4d0de9f1"
+    },
+    {
+      "output": "outdoor-38.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_07_07_21_56_56_IMG_7130.JPG",
+      "originalSize": [
+        4032,
+        2268
+      ],
+      "outputSize": [
+        2200,
+        1238
+      ],
+      "colorManaged": false,
+      "sha256": "81a2db620ec8b44d73b2b4245ba56939456f6240c0cd12d9274ff0e8ab1cb6c7"
+    },
+    {
+      "output": "outdoor-45.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_10_03_11_18_28_IMG_1155.JPG",
+      "originalSize": [
+        3797,
+        5063
+      ],
+      "outputSize": [
+        1950,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "1f49d59b5673160c52531639e5e360582ea07d7121bd9ddcd259e1c4f50d51cb"
+    },
+    {
+      "output": "outdoor-42.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_10_02_15_45_45_IMG_0749.JPG",
+      "originalSize": [
+        4032,
+        3024
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": true,
+      "sha256": "811348ee8f16a18a016dcd4feeec86c88eef237d6e99fdcbc51d1a03c7d80e44"
+    },
+    {
+      "output": "outdoor-46.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_10_07_19_25_14_IMG_1512.JPEG",
+      "originalSize": [
+        4096,
+        3072
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": false,
+      "sha256": "d3b295ae9385a1420aefaac448b10c7c9034451d03a2e5cde5a955e898ebacbd"
+    },
+    {
+      "output": "outdoor-43.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_10_02_17_18_29_IMG_0811.JPG",
+      "originalSize": [
+        4032,
+        2268
+      ],
+      "outputSize": [
+        2200,
+        1238
+      ],
+      "colorManaged": true,
+      "sha256": "a0bc041a44fd59fb1d43c1901fab14d2d3145eaf4d3741d09cc204d92ee69a20"
+    },
+    {
+      "output": "outdoor-44.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_10_02_17_33_17_IMG_0827.JPG",
+      "originalSize": [
+        3941,
+        2956
+      ],
+      "outputSize": [
+        2200,
+        1650
+      ],
+      "colorManaged": true,
+      "sha256": "566dc26829bc189b7be1bffdca6af8cc2c5c9035e84826017200617787fc316f"
+    },
+    {
+      "output": "yema-portrait.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_07_18_12_31_11_IMG_7371.JPEG",
+      "originalSize": [
+        2784,
+        5120
+      ],
+      "outputSize": [
+        1414,
+        2600
+      ],
+      "colorManaged": false,
+      "sha256": "31140a804037e3efe0c26983d54248e1dfedc6e3d7e61f5564bc6e836e140265"
+    },
+    {
+      "output": "dolla-profile.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_56_31_IMG_2688.PNG",
+      "originalSize": [
+        930,
+        630
+      ],
+      "outputSize": [
+        930,
+        630
+      ],
+      "colorManaged": true,
+      "sha256": "a369b6ee11ce5e979cf9c2a91a0d27e9ec15ce96fd0f85ed140a442b500fbc15"
+    },
+    {
+      "output": "performance-2671.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_51_32_IMG_2671.JPG",
+      "originalSize": [
+        1289,
+        2624
+      ],
+      "outputSize": [
+        1277,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "1f66673d4e3d253372fa99d379fac71823c6bfa27b65430160226d162efe32bb"
+    },
+    {
+      "output": "performance-2676.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_53_26_IMG_2676.JPG",
+      "originalSize": [
+        1290,
+        2640
+      ],
+      "outputSize": [
+        1270,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "eb840438506c82f6beab9b8a839d1d46afa1479f280c07dd4733045296987008"
+    },
+    {
+      "output": "performance-2683.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_54_46_IMG_2683.JPG",
+      "originalSize": [
+        1290,
+        1759
+      ],
+      "outputSize": [
+        1290,
+        1759
+      ],
+      "colorManaged": true,
+      "sha256": "e1a1cee7d9ac218ee6efed11a2d1dc08ff9d36d947a8d855382d1a7a294e4185"
+    },
+    {
+      "output": "performance-2684.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_55_24_IMG_2684.JPG",
+      "originalSize": [
+        1290,
+        1799
+      ],
+      "outputSize": [
+        1290,
+        1799
+      ],
+      "colorManaged": true,
+      "sha256": "21ad1cbe14ebee1c4fb29032b90a1d495d9acb8fc263f996303db35311dec1ea"
+    },
+    {
+      "output": "performance-2687.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_56_05_IMG_2687.JPG",
+      "originalSize": [
+        1290,
+        1657
+      ],
+      "outputSize": [
+        1290,
+        1657
+      ],
+      "colorManaged": true,
+      "sha256": "0b7cd9b6a24a3519190af26c04dac4a5e0fa0b0f9246e8d08000e0d83b07ca8c"
+    },
+    {
+      "output": "performance-2685.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_55_43_IMG_2685.JPG",
+      "originalSize": [
+        1290,
+        1655
+      ],
+      "outputSize": [
+        1290,
+        1655
+      ],
+      "colorManaged": true,
+      "sha256": "1dc17a421a2f7915725647dc0b93d2895abf0359b447fa4bcbba93c5bcb17a99"
+    },
+    {
+      "output": "performance-2680.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_54_25_IMG_2680.JPG",
+      "originalSize": [
+        1290,
+        1756
+      ],
+      "outputSize": [
+        1290,
+        1756
+      ],
+      "colorManaged": true,
+      "sha256": "b7d7493c593af52c277b74c28250c972541ae16a2caeff52986c76e33343721c"
+    },
+    {
+      "output": "performance-2686.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_55_52_IMG_2686.JPG",
+      "originalSize": [
+        1290,
+        1673
+      ],
+      "outputSize": [
+        1290,
+        1673
+      ],
+      "colorManaged": true,
+      "sha256": "49bd56b312f9c3e578f23a27d2d943b3d123849a8e71d35a71ef5cabe7bec393"
+    },
+    {
+      "output": "performance-2677.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_53_39_IMG_2677.JPG",
+      "originalSize": [
+        1289,
+        2628
+      ],
+      "outputSize": [
+        1275,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "931b0fc8439b552c9ccde332a4379ae6459aad5a2a8a06f5d5f1339f08058891"
+    },
+    {
+      "output": "performance-2679.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_54_08_IMG_2679.JPG",
+      "originalSize": [
+        1290,
+        2635
+      ],
+      "outputSize": [
+        1273,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "90d34ff0c84d8760327e2711005e611f2a42cf2378d348e2b276cec272744689"
+    },
+    {
+      "output": "performance-2681.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_54_36_IMG_2681.JPG",
+      "originalSize": [
+        1290,
+        1774
+      ],
+      "outputSize": [
+        1290,
+        1774
+      ],
+      "colorManaged": true,
+      "sha256": "19c8522593cfc0152cd535b43b36088868bcfeb2708af65a15ac67a8cb009a32"
+    },
+    {
+      "output": "performance-2682.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_54_43_IMG_2682.JPG",
+      "originalSize": [
+        1290,
+        1808
+      ],
+      "outputSize": [
+        1290,
+        1808
+      ],
+      "colorManaged": true,
+      "sha256": "b8118df569f0e563a71b228688809b377a684dfd4d1c4143765d9392c3ac611d"
+    },
+    {
+      "output": "performance-2678.webp",
+      "source": "C:\\Users\\zfc\\Desktop\\个人作品集照片素材\\2026_11_02_15_53_53_IMG_2678.JPG",
+      "originalSize": [
+        1290,
+        2627
+      ],
+      "outputSize": [
+        1277,
+        2600
+      ],
+      "colorManaged": true,
+      "sha256": "b6afb1ae047df6bf35ef0484ab3f20034b0ba79b7a887a1c590ab61fcd158bb8"
+    },
+    {
+      "output": "geo-real-01-company-profile.webp",
+      "source": "E:\\电商产业园实习项目\\GEO-SaaS\\docs\\portfolio\\video-review\\private-raw\\sample-008.jpg",
+      "originalSize": [
+        2390,
+        1300
+      ],
+      "outputSize": [
+        2390,
+        1300
+      ],
+      "colorManaged": false,
+      "sha256": "d25394499fd6be42c65f93318cbfa142b20f73a56ba9713783e0dd333d478bcb"
+    },
+    {
+      "output": "geo-real-02-question-review.webp",
+      "source": "E:\\电商产业园实习项目\\GEO-SaaS\\docs\\portfolio\\video-review\\private-raw\\sample-012.jpg",
+      "originalSize": [
+        2390,
+        1300
+      ],
+      "outputSize": [
+        2390,
+        1300
+      ],
+      "colorManaged": false,
+      "sha256": "5b384725a426f69d0aa8c41fc691688d1eec3cd6d1698d01cdfa2a1fbef820af"
+    },
+    {
+      "output": "geo-real-03-ai-task-input.webp",
+      "source": "E:\\电商产业园实习项目\\GEO-SaaS\\docs\\portfolio\\video-review\\private-raw\\sample-015.jpg",
+      "originalSize": [
+        2390,
+        1300
+      ],
+      "outputSize": [
+        2390,
+        1300
+      ],
+      "colorManaged": false,
+      "sha256": "18b914b9d325c6d863947caac2dd88eb54b365a503152e5bd1d0e03e78c17307"
+    },
+    {
+      "output": "geo-real-04-generated-article.webp",
+      "source": "E:\\电商产业园实习项目\\GEO-SaaS\\docs\\portfolio\\video-review\\private-raw\\sample-018.jpg",
+      "originalSize": [
+        2390,
+        1300
+      ],
+      "outputSize": [
+        2390,
+        1300
+      ],
+      "colorManaged": false,
+      "sha256": "88face95a7c944aba76df3d0a03ce1011a42954e4f63b97fbc22530c0de693b6"
+    },
+    {
+      "output": "geo-real-05-media-filters.webp",
+      "source": "E:\\电商产业园实习项目\\GEO-SaaS\\docs\\portfolio\\video-review\\private-raw\\sample-021.jpg",
+      "originalSize": [
+        2390,
+        1300
+      ],
+      "outputSize": [
+        2390,
+        1300
+      ],
+      "colorManaged": false,
+      "sha256": "c4c35b7ba51cfc40ced7b22bf4fe423c03553e31102e22a7cf256415b0d23c37"
+    },
+    {
+      "output": "geo-real-06-media-results.webp",
+      "source": "E:\\电商产业园实习项目\\GEO-SaaS\\docs\\portfolio\\video-review\\private-raw\\sample-026.jpg",
+      "originalSize": [
+        2390,
+        1300
+      ],
+      "outputSize": [
+        2390,
+        1300
+      ],
+      "colorManaged": false,
+      "sha256": "890a20500d4c67865017fb1d4b81efb463b23895ac423e045b1057107eec9e45"
+    },
+    {
+      "output": "geo-real-07-order-status.webp",
+      "source": "E:\\电商产业园实习项目\\GEO-SaaS\\docs\\portfolio\\video-review\\private-raw\\sample-030.jpg",
+      "originalSize": [
+        2390,
+        1300
+      ],
+      "outputSize": [
+        2390,
+        1300
+      ],
+      "colorManaged": false,
+      "sha256": "8e0e426d65cf3482971643c943cf421c5b32405c1e09fe95cf165e62b1d240f7"
+    },
+    {
+      "output": "geo-real-08-geo-target-answer.webp",
+      "source": "E:\\电商产业园实习项目\\GEO-SaaS\\docs\\portfolio\\video-review\\private-raw\\sample-032.jpg",
+      "originalSize": [
+        2390,
+        1300
+      ],
+      "outputSize": [
+        2390,
+        1300
+      ],
+      "colorManaged": false,
+      "sha256": "f5b6b5d62e8b5bca846520ed58bc4735ac69258522d45488e55d9e031e504f60"
+    }
+  ]
+}

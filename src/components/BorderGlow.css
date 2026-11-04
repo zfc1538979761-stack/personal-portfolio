@@ -1,0 +1,67 @@
+.border-glow-card {
+  --edge-proximity: 0;
+  --cursor-angle: 45deg;
+  position: relative;
+  isolation: isolate;
+  border-radius: 6px;
+  overflow: visible;
+}
+.border-glow-card > :not(.edge-light) {
+  position: relative;
+  z-index: 2;
+}
+.border-glow-card::before,
+.border-glow-card > .edge-light {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity .28s ease-out;
+}
+.border-glow-card::before {
+  border: 1px solid transparent;
+  background:
+    linear-gradient(var(--card-bg) 0 100%) padding-box,
+    radial-gradient(at 80% 55%, #9bdfff 0, transparent 50%) border-box,
+    radial-gradient(at 8% 6%, #62b9e6 0, transparent 50%) border-box,
+    linear-gradient(#3b7da7 0 100%) border-box;
+  mask-image: conic-gradient(from var(--cursor-angle) at center,
+    black calc(var(--cone-spread) * 1%), transparent calc((var(--cone-spread) + 15) * 1%),
+    transparent calc((100 - var(--cone-spread) - 15) * 1%), black calc((100 - var(--cone-spread)) * 1%));
+}
+.border-glow-card > .edge-light {
+  inset: calc(var(--glow-padding) * -1);
+  mask-image: conic-gradient(from var(--cursor-angle) at center,
+    black 2.5%, transparent 10%, transparent 90%, black 97.5%);
+}
+.border-glow-card > .edge-light::before {
+  content: "";
+  position: absolute;
+  inset: var(--glow-padding);
+  border-radius: 6px;
+  box-shadow:
+    inset 0 0 0 1px hsl(var(--glow-ink) / .8),
+    inset 0 0 4px hsl(var(--glow-ink) / .28),
+    0 0 3px hsl(var(--glow-ink) / .58),
+    0 0 7px hsl(var(--glow-ink) / .3),
+    0 0 12px hsl(var(--glow-ink) / .16);
+}
+@media (min-width: 761px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .border-glow-hit[data-pointer-inside="true"] > .border-glow-card::before {
+    opacity: calc((var(--edge-proximity) - 50) / 50 * .85);
+  }
+  .border-glow-hit[data-pointer-inside="true"] > .border-glow-card > .edge-light {
+    opacity: calc((var(--edge-proximity) - var(--edge-sensitivity)) / (100 - var(--edge-sensitivity)));
+  }
+  .border-glow-hit:not([data-pointer-inside="true"]) > .border-glow-card::before,
+  .border-glow-hit:not([data-pointer-inside="true"]) > .border-glow-card > .edge-light {
+    transition-duration: .4s;
+  }
+}
+@media (max-width: 760px), (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) {
+  .border-glow-card::before,
+  .border-glow-card > .edge-light { display: none; }
+}
