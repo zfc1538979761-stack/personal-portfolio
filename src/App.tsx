@@ -9,7 +9,7 @@ import { BorderGlow } from "./components/BorderGlow";
 import { SectionLabel } from "./components/SectionLabel";
 import { usePortfolioMotion } from "./components/usePortfolioMotion";
 import { GlowCursor } from "./components/GlowCursor";
-import { projects, strengths, contact } from "./content";
+import { projects, strengths, contact, creatorStatus } from "./content";
 import "./App.css";
 
 const navigation = [
@@ -301,11 +301,14 @@ function About() {
           </strong>
           <span>单条作品播放量</span>
         </div>
-        <p>
-          据本人提供的账号后台截图
-          <br />
-          数据为历史记录，非实时统计
-        </p>
+        <p>数据来自本人提供的账号后台截图，为历史记录，非实时统计。</p>
+        <aside className="creator-status" aria-labelledby="creator-status-title">
+          <span className="creator-status-label">创作者身份</span>
+          <div>
+            <h3 id="creator-status-title">{creatorStatus}</h3>
+            <p>入选大疆 Osmo 创作者计划</p>
+          </div>
+        </aside>
       </div>
     </section>
   );
@@ -343,6 +346,9 @@ function Work({ onOpen, tiltEnabled = true }: { onOpen: (id: string) => void; ti
               </div>
             </button>
             <p className="project-summary">{project.summary}</p>
+            {project.highlight && (
+              <p className="project-highlight">{project.highlight}</p>
+            )}
             <div className="tags">
               {project.tags.map((tag) => (
                 <span key={tag}>{tag}</span>

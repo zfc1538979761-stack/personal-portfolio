@@ -92,8 +92,9 @@ export function usePortfolioMotion(rootRef: RefObject<HTMLDivElement | null>) {
 
         group("about-copy", root.querySelector(".about-copy"), select(".bio,.about-description,.timeline > div,.about-email"), .35);
         group("metrics", root.querySelector(".metrics"), select(".metrics > div"));
+        group("creator-status", root.querySelector(".creator-status"), select(".creator-status > *"));
         select(".project").forEach((project, index) => group(`project-${index}`, project,
-          Array.from(project.querySelectorAll<HTMLElement>(".project-open,.project-summary,.tags")), .25));
+          Array.from(project.querySelectorAll<HTMLElement>(".project-open,.project-summary,.project-highlight,.tags")), .25));
         const strengthCards = select(".strength-card");
         if (completed.has("strength-cards")) strengthCards.forEach((_, index) => completed.add(`strength-${index}`));
         if (strengthCards.every((_, index) => completed.has(`strength-${index}`))) completed.add("strength-cards");

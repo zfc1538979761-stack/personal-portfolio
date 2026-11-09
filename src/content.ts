@@ -1,4 +1,5 @@
-import { accountEvidence, geoEvidence, performanceRecords } from "./media-data";
+import { creatorInvitation, dollaPerformanceRecords } from "./dolla-evidence";
+import { accountEvidence, geoEvidence } from "./media-data";
 import type { Media } from "./types";
 import { additionalOutdoorVideos } from "./video-data";
 export const contact = {
@@ -13,6 +14,7 @@ export type Project = {
   title: string;
   type: string;
   summary: string;
+  highlight?: string;
   tags: string[];
   period: string;
   role: string;
@@ -34,6 +36,9 @@ const outdoorVideo: Media = {
   caption: "雪山徒步 · 视频作品",
 };
 const outdoorVideos: Media[] = [outdoorVideo, ...additionalOutdoorVideos];
+const dollaRecordCount = dollaPerformanceRecords.length;
+export const creatorStatus = "大疆 Osmo 签约创作者";
+
 export const projects: Project[] = [
   {
     id: "geo",
@@ -71,6 +76,7 @@ export const projects: Project[] = [
     type: "CONTENT / OUTDOORS",
     summary:
       "把户外经历转化为内容，独立完成创作、发布、数据复盘，并在合作和咨询中实践用户沟通与转化。",
+    highlight: `${dollaRecordCount} 条千赞作品记录 · ${creatorStatus}`,
     tags: ["内容策划", "拍摄与剪辑", "数据复盘", "用户转化"],
     period: "2025年9月起系统运营",
     role: "账号独立运营、内容制作、数据复盘与用户沟通",
@@ -83,22 +89,23 @@ export const projects: Project[] = [
       },
       {
         title: "用后台数据检验表达",
-        body: "结合实际播放、点赞、收藏和用户反馈观察内容效果。本页收录13条点赞超过1000的作品后台记录，既展示代表作品，也呈现多次内容实践。",
+        body: `结合播放、点赞、收藏和用户反馈复盘内容。本页收录 ${dollaRecordCount} 条点赞超过 1,000 的作品后台记录。`,
       },
       {
         title: "理解需求与合作转化",
         body: "承接户外产品置换及佣金合作，通过微信承接咨询，介绍路线和户外俱乐部活动，实践需求识别、跟进沟通与代理成交。2025年9月前的作品属于前期创作。",
       },
     ],
-    media: [...outdoorVideos, ...accountEvidence, ...performanceRecords],
+    media: [...outdoorVideos, ...accountEvidence, ...dollaPerformanceRecords, creatorInvitation],
     groups: [
       { id: "videos", label: "视频作品", items: outdoorVideos },
       { id: "profile", label: "账号主页", items: accountEvidence },
       {
         id: "performance",
-        label: "作品后台记录 · 13条",
-        items: performanceRecords,
+        label: `作品后台记录 · ${dollaRecordCount} 条`,
+        items: dollaPerformanceRecords,
       },
+      { id: "invitation", label: "创作者邀请", items: [creatorInvitation] },
     ],
     note: "数据来自本人提供的抖音账号与作品后台截图，按点赞量降序展示，非实时更新；不同作品的统计时点可能不同。保留原始指标及发布日期，不据此推算商业收入。",
     url: contact.douyin,
@@ -116,8 +123,7 @@ export const strengths = [
     title: "自媒体与内容运营",
     description:
       "独立完成账号定位、选题、拍摄、剪辑、发布与复盘。结合后台播放、点赞、收藏和用户反馈调整表达，既关注内容本身，也关注它是否被看见、理解和回应。",
-    evidence:
-      "经历依据 / Dolla独立运营 · 单条作品播放170万+ · 13条千赞以上记录",
+    evidence: `经历依据 / Dolla独立运营 · 单条作品播放170万+ · ${dollaRecordCount} 条千赞作品记录`,
   },
   {
     title: "商业思维与用户转化",
